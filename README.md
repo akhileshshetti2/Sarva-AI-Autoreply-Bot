@@ -40,13 +40,13 @@ export GROQ_API_KEY="your-groq-api-key"
 python main.py
 
 
-Interaction Flow
+Interaction Flow:
 Open WhatsApp Desktop and ensure the target chat window is visible.
 Run main.py in your terminal.
 The script periodically checks for new incoming messages, generates an AI response, and pastes it into the chat window automatically.
 Move your mouse cursor to any corner of the screen or press Ctrl+C in terminal to stop execution.
 
-Future Enhancements
+Future Enhancements:
 Replace coordinate-based GUI clicks with direct WhatsApp Web API or selenium browser automation.
 Load API credentials securely using python-dotenv.
 Add custom contact filtering to only auto-reply to specific senders.
